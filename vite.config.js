@@ -12,6 +12,8 @@ build:{
             main: resolve(__dirname,'index.html'),
             about: resolve(__dirname,'pages/about.html'),
             contact: resolve(__dirname,'pages/contact.html'),
+            challenge: resolve(__dirname,'pages/challenge.html'),
+            maqueta: resolve(__dirname,'pages/maqueta.html'),
         }
     }
 }
