@@ -14,6 +14,7 @@ build:{
             contact: resolve(__dirname,'pages/contact.html'),
             challenge: resolve(__dirname,'pages/challenge.html'),
             maqueta: resolve(__dirname,'pages/maqueta.html'),
+            portfolio: resolve(__dirname,'pages/portfolio.html')
         }
     }
 }
