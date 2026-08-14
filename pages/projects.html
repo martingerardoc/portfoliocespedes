@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Martin Cespedes</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <script src="../javascript/portofolio.js" defer></script>
+</head>
+
+<body class="bg-gradient-to-b from-black via-sky-950 to-gray-900 text-white">
+    <!-- ================= HEADER ================= -->
+    <header class="relative min-h-screen flex flex-col">
+
+        <!-- ================= NAVBAR ================= -->
+        <nav class="w-full px-6 py-5 flex items-center justify-between relative">
+
+            <!-- Logo -->
+            <img src="../img/logo.png" alt="Logo" class="h-10 w-auto" />
+
+            <!-- Desktop Menu -->
+            <ul class="hidden md:flex gap-9 text-sm font-medium">
+                <li><a href="../pages/portfolio.html"
+                        class="hover:text-red-400 transition  border-yellow-400 text-yellow-400">HOME</a></li>
+                <li><a href="#skills" class="hover:text-sky-400 transition">Skills</a></li>
+                <li><a href="#projects" class="hover:text-sky-400 transition">Projects</a></li>
+            </ul>
+
+            <!-- Desktop Contact -->
+            <a href="#contact" class="hidden md:block px-5 py-2 rounded-full border border-yellow-400 text-yellow-400
+    hover:bg-yellow-400 hover:text-black transition text-sm font-semibold">
+                Contact
+            </a>
+
+            <!-- Mobile Hamburger Button -->
+            <button id="menubtn" class="md:hidden flex flex-col gap-1">
+                <span class="w-6 h-0.5 bg-white transition-all"></span>
+                <span class="w-6 h-0.5 bg-white transition-all"></span>
+                <span class="w-6 h-0.5 bg-white transition-all"></span>
+            </button>
+            <!-- ================= MOBILE MENU ================= -->
+            <div id="mobilemenu" class="hidden absolute top-full right-5 w-56 bg-[#0b1020]
+  flex flex-col items-center gap-6 py-6 md:hidden transition-all duration-300">
+
+                <a href="../pages/portfolio.html" class="hover:text-sky-400 transition">Home</a>
+                <a href="#skills" class="hover:text-sky-400 transition">Skills</a>
+                <a href="#projects" class="hover:text-sky-400 transition">Projects</a>
+                <a href="#contact" class="px-5 py-2 rounded-full border border-yellow-400 text-yellow-400
+    hover:bg-yellow-400 hover:text-black transition text-sm font-semibold">
+                    Contact
+                </a>
+
+            </div>
+        </nav>
+
+
+
+        <!-- HERO -->
+        <div class="flex flex-col items-center justify-center flex-1 text-center px-6">
+
+            <img src="../img/profile.jpg" alt="Martin Cespedes perfil"
+                class="h-48 sm:h-60 md:h-72 object-cover rounded-full shadow-lg mb-6" />
+
+            <span class="text-sky-400 text-sm font-mono px-4 py-1 border border-sky-500/50 rounded-full bg-black/50">
+                @margerces
+            </span>
+
+            <h1 class="text-3xl sm:text-4xl md:text-5xl font-extrabold mt-6">
+                Martin Cespedes Projects
+            </h1>
+            <section id="skills" class="py-16 px-6 max-w-6xl mx-auto">
+
+                <h2 class="text-center text-yellow-400 text-sm tracking-widest mb-12">
+                    SOME PROJECTS
+                </h2>
+
+                <!-- GRID RESPONSIVE -->
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+
+                    <!-- Skill Card -->
+                    <div
+                        class="rounded-2xl p-6 bg-gradient-to-br from-orange-500 to-white text-black font-bold shadow hover:scale-105 transition">
+                        <a href="https://store-catalog-omega.vercel.app/" target="_blank" rel="noopener noreferrer">
+                            <button type="button">
+                                Show my store project
+                            </button>
+                        </a>
+                    </div>
+
+                    <div
+                        class="rounded-2xl p-6 bg-gradient-to-br from-purple-600 to-white text-black font-bold shadow hover:scale-105 transition">
+                        <a href="https://cse340-course-j8kw.onrender.com/" target="_blank" rel="noopener noreferrer">
+                            <button type="button">
+                                Service Network
+                            </button>
+                        </a>
+                    </div>
+
+                    <div
+                        class="rounded-2xl p-6 bg-gradient-to-br from-yellow-400 to-white text-black font-bold shadow hover:scale-105 transition">
+                        <a href="https://luiscardenas.onrender.com" target="_blank" rel="noopener noreferrer">
+                            <button type="button">
+                                La Villa Padel
+                            </button>
+                        </a>
+                    </div>
+
+                    <div
+                        class="rounded-2xl p-6 bg-gradient-to-br from-cyan-700 to-cyan-400 text-white font-bold shadow hover:scale-105 transition">
+                        <a href="https://turismo-sur.onrender.com/" target="_blank" rel="noopener noreferrer">
+                            <button type="button">
+                                Turismo Sur
+                            </button>
+                        </a>
+                    </div>
+                    <div
+                        class="rounded-2xl p-6 bg-gradient-to-br from-cyan-900 text-white font-bold shadow hover:scale-105 transition">
+                        <a href="https://turismosur.vercel.app/" target="_blank" rel="noopener noreferrer">
+                            <button type="button">
+                                Turismo Sur 2
+                            </button>
+                        </a>
+                    </div>
+
+                </div>
+
+        </div>
+
+    </header>
+
+</body>
+
+</html>
